@@ -1,0 +1,27 @@
+body { 
+	background-color: #F3F5AC;
+	}
+#heading {
+	background-color: #5B1EA5; 					  				
+    border-color: white;
+    color: white;
+    text-shadow: 1px 1px white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow:  0 0 3em white;
+    margin-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	}
+iframe {
+	position: absolute;
+	margin: auto;
+    left: 0; 
+    right: 0;
+    top: -80px;
+    bottom: 0;  
+	}

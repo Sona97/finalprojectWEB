@@ -1,0 +1,113 @@
+				body {
+					background-image: url("Yell-Extreme-Park-Logo-Transparent.png");
+				}
+				img {
+					position: absolute;
+					top: 10px;
+					left: 50px;
+				}
+				#header {
+					top: 0 px;
+					background-color: #FCB721;
+					height: 110px;
+					width: 100%;
+					text-align: center;
+					font-size: 70px;
+					color: #45132F;
+					opacity: 1;
+					vertical-align: middle;
+					line-height: 110px;
+				}
+				
+				#Home {
+					position: relative;
+					top: 15px;
+					left: 0px;
+					width: 100px;
+					height: 55px;
+					text-align: center;
+					font-size: 25px;
+					color: #45132F;
+					opacity: 0.8;
+					vertical-align: middle;
+					line-height: 55px;
+					
+				}
+				#Story {
+					position: relative;
+					top: -40px;
+					left: 110px;
+					width: 150px;
+					height: 55px;
+					text-align: center;
+					font-size: 25px;
+					color: #45132F;
+					opacity: 0.8;	
+					vertical-align: middle;
+					line-height: 55px;			
+				}
+				#Gifts {
+					position: relative;
+					top: -95px;
+					left: 270px;
+					width: 180px;
+					height: 55px;
+					text-align: center;
+					font-size: 25px;
+					color: #45132F;
+					opacity: 0.8;
+					vertical-align: middle;
+					line-height: 55px;
+					
+				} 
+				#Gallery {
+					position: relative;
+					top: -150px;
+					left: 460px;
+					width: 120px;
+					height: 55px;
+					text-align: center;
+					font-size: 25px;
+					color: #45132F;
+					opacity: 0.8;
+					vertical-align: middle;
+					line-height: 55px;
+					
+				} 
+				iframe {
+					position: relative;
+					top: -220px;
+					left: 20px;
+					/*border-width: 7px; */
+					}
+				#description {
+					position: absolute;
+					/*background: rgba(246, 238, 238, 0.4);*/
+					top: 205px;
+					left: 720px;
+					width: 650px;
+					height: 300px;
+					font-size: 30px;
+					color: #45132F;
+					text-align: left;
+				}
+
+				#indigogolink {
+					background-color: #C0392B;
+					position: relative;
+					top: 180px;
+					left: 845px;
+					width: 370px;
+					height: 100px;
+					font-size: 50px;
+					text-align: center;
+					color: white;
+					border-radius: 8px;
+					/*opacity: 0.8;*/
+					vertical-align: middle;
+					line-height: 100px;
+				}
+				
+				a {
+					text-decoration: none;
+				}

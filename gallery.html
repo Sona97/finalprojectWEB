@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> The Longest Zipline </title>
+
+			<div id = "header"> The Longest Zipline in the World </div>
+			<a href = "./index.html"> <img src="Yell-Extreme-Park-Logo.png" width = "100px" heigth = "100px"> </a>
+			<link rel="stylesheet" type="text/css" href="gallery.css" media="screen"/>
+		</head>
+		<body>
+			<!--Pages-->
+			<a href = "./index.html"> <div id = "Home" > Home </div> </a>
+			<a href = "./story.html"> <div id = "Story" > Our Story </div>  </a>
+			<a href = "./gifts.html"> <div id = "Gifts" > What You Get</div> </a>
+			<a href = "./gallery.html"> <div id = "Gallery" > Gallery </div> </a>
+			<a href="https://www.indiegogo.com"> <div id = indigogolink> CLICK to FUND </div> </a>
+
+			<img class = "photo" id = "ph1" src="gallery/ph1.jpg" border="5">
+			<img class = "photo" id = "ph2" src="gallery/ph2.jpg" border="5">
+			<img class = "photo" id = "ph3" src="gallery/ph3.jpg" border="5">
+			<img class = "photo" id = "ph4" src="gallery/ph4.jpg" border="5">
+			<img class = "photo" id = "ph5" src="gallery/ph5.jpg" border="5">
+			<img class = "photo" id = "ph6" src="gallery/ph6.jpg" border="5">
+			<img class = "photo" id = "ph7" src="gallery/ph7.jpg" border="5">
+			<img class = "photo" id = "ph8" src="gallery/ph8.jpg" border="5">
+			<img class = "photo" id = "ph9" src="gallery/ph9.jpg" border="5">
+			<img class = "photo" id = "ph10" src="gallery/ph10.jpg" border="5">
+			<img class = "photo" id = "ph11" src="gallery/ph11.jpg" border="5">
+			<img class = "photo" id = "ph12" src="gallery/ph12.jpg" border="5">
+
+
+			<!--<div id = "facebook" href = "https://web.facebook.com/yellextremepark/"> Facebook </div>
+			<div id = "indigogo" href = "https://www.indiegogo.com"> Indigogo </div> -->
+
+
+			<!--Javascript-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				//Home
+				const Home = $('#Home').on('mouseenter', function(e) {
+					Home.css('text-decoration', 'underline');
+				});
+				Home.on('mouseleave', function(e) {
+					Home.css('text-decoration', 'none');
+				});
+
+				//Story
+				const Story = $('#Story').on('mouseenter', function(e) {
+					Story.css('text-decoration', 'underline');
+				});
+				Story.on('mouseleave', function(e) {
+					Story.css('text-decoration', 'none');
+				});
+
+				//Gifts
+				const Gifts = $('#Gifts').on('mouseenter', function(e) {
+					Gifts.css('text-decoration', 'underline');
+				});
+				Gifts.on('mouseleave', function(e) {
+					Gifts.css('text-decoration', 'none');
+				});
+
+				//Gallery
+				const Gallery = $('#Gallery').on('mouseenter', function(e) {
+					Gallery.css('text-decoration', 'underline');
+				});
+				Gallery.on('mouseleave', function(e) {
+					Gallery.css('text-decoration', 'none');
+				});
+
+
+
+				//Photos
+				//1
+				const Photo1 = $('#ph1').on('mouseenter', function(e) {
+					Photo1.css('opacity','1').css('border-radius','60px');
+				});
+				Photo1.on('mouseleave', function(e) {
+					Photo1.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//2
+				const Photo2 = $('#ph2').on('mouseenter', function(e) {
+					Photo2.css('opacity','1').css('border-radius','60px');
+				});
+				Photo2.on('mouseleave', function(e) {
+					Photo2.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//3
+				const Photo3 = $('#ph3').on('mouseenter', function(e) {
+					Photo3.css('opacity','1').css('border-radius','60px');
+				});
+				Photo3.on('mouseleave', function(e) {
+					Photo3.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//4
+				const Photo4 = $('#ph4').on('mouseenter', function(e) {
+					Photo4.css('opacity','1').css('border-radius','60px');
+				});
+				Photo4.on('mouseleave', function(e) {
+					Photo4.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//5
+				const Photo5 = $('#ph5').on('mouseenter', function(e) {
+					Photo5.css('opacity','1').css('border-radius','60px');
+				});
+				Photo5.on('mouseleave', function(e) {
+					Photo5.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//6
+				const Photo6 = $('#ph6').on('mouseenter', function(e) {
+					Photo6.css('opacity','1').css('border-radius','60px');
+				});
+				Photo6.on('mouseleave', function(e) {
+					Photo6.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//7
+				const Photo7 = $('#ph7').on('mouseenter', function(e) {
+					Photo7.css('opacity','1').css('border-radius','60px');
+				});
+				Photo7.on('mouseleave', function(e) {
+					Photo7.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//8
+				const Photo8 = $('#ph8').on('mouseenter', function(e) {
+					Photo8.css('opacity','1').css('border-radius','60px');
+				});
+				Photo8.on('mouseleave', function(e) {
+					Photo8.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//9
+				const Photo9 = $('#ph9').on('mouseenter', function(e) {
+					Photo9.css('opacity','1').css('border-radius','60px');
+				});
+				Photo9.on('mouseleave', function(e) {
+					Photo9.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//10
+				const Photo10 = $('#ph10').on('mouseenter', function(e) {
+					Photo10.css('opacity','1').css('border-radius','60px');
+				});
+				Photo10.on('mouseleave', function(e) {
+					Photo10.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//11
+				const Photo11 = $('#ph11').on('mouseenter', function(e) {
+					Photo11.css('opacity','1').css('border-radius','60px');
+				});
+				Photo11.on('mouseleave', function(e) {
+					Photo11.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//12
+				const Photo12 = $('#ph12').on('mouseenter', function(e) {
+					Photo12.css('opacity','1').css('border-radius','60px');
+				});
+				Photo12.on('mouseleave', function(e) {
+					Photo12.css('opacity','0.8').css('border-radius','40px');
+				});
+
+				//Indiegogo
+				const Indiegogo = $('#indigogolink').on('mouseenter', function(e) {
+					Indiegogo.css('background-color', '#F6391F');
+				});
+				Indiegogo.on('mouseleave', function(e) {
+					Indiegogo.css('background-color','#C0392B');
+				});
+
+			</script>
+		</body>
+	</html>
+
+
+
+

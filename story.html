@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> The Longest Zipline </title>
+
+			<div id = "header"> The Longest Zipline in the World </div>
+			<a href = "./index.html"> <img src="Yell-Extreme-Park-Logo.png" width = "100px" heigth = "100px"> </a>
+			<link rel="stylesheet" type="text/css" href="story.css" media="screen" />
+		</head>
+
+
+
+		<body>
+			<a href = "./index.html"> <div id = "Home" > Home </div> </a>
+			<a href = "./story.html"> <div id = "Story" > Our Story </div>  </a>
+			<a href = "./gifts.html"> <div id = "Gifts" > What You Get</div> </a>
+			<a href = "./gallery.html"> <div id = "Gallery" > Gallery </div> </a>
+			<a href="https://www.indiegogo.com"> <div id = indigogolink> CLICK to FUND </div> </a>
+			<div id = "storycontent"> 
+				<p > As the first adventure in Armenia, Yell Extreme Park gives an opportunity to do extreme sports without being a professional. </p>
+				<p> Our first Zip-line flight took place in July, 2015. A year later in August 2016 the quantity of visitors surpassed 15.000. In that period the activities were regularly accrued. Since November 2015, one can also paraglide or ride a bike in mountains. Next year two more Zip-lines were constructed. Now the longest line is 750m with the height of 200-300m and the speed of 5-7m/s. </p>
+				<p> Recently new activities adjoined the park – people can try their forces in paintball and extreme swing. If they love speed, they can join our off-road tours or ride Yell track. There are also horseback riding tours in the nearest mountains lasting up to 7 days. </p>
+				<p> Here we do our best to lighten up the world and make great each moment. </p>
+			</div>
+
+			<a> <img id = "storypicture" src="./13458759_356410817816457_1892090496695498463_o.jpg"></a>
+
+			<!--Javascript-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				//Home
+				const Home = $('#Home').on('mouseenter', function(e) {
+					Home.css('text-decoration', 'underline');
+				});
+				Home.on('mouseleave', function(e) {
+					Home.css('text-decoration', 'none');
+				});
+
+				//Story
+				const Story = $('#Story').on('mouseenter', function(e) {
+					Story.css('text-decoration', 'underline');
+				});
+				Story.on('mouseleave', function(e) {
+					Story.css('text-decoration', 'none');
+				});
+
+				//Gifts
+				const Gifts = $('#Gifts').on('mouseenter', function(e) {
+					Gifts.css('text-decoration', 'underline');
+				});
+				Gifts.on('mouseleave', function(e) {
+					Gifts.css('text-decoration', 'none');
+				});
+
+				//Gallery
+				const Gallery = $('#Gallery').on('mouseenter', function(e) {
+					Gallery.css('text-decoration', 'underline');
+				});
+				Gallery.on('mouseleave', function(e) {
+					Gallery.css('text-decoration', 'none');
+				});
+
+
+				//Indiegogo
+				const Indiegogo = $('#indigogolink').on('mouseenter', function(e) {
+					Indiegogo.css('background-color', '#F6391F');
+				});
+				Indiegogo.on('mouseleave', function(e) {
+					Indiegogo.css('background-color','#C0392B');
+				});
+			</script>
+		</body>
+	</html>
+
+
+
+

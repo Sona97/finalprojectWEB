@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> The Longest Zipline </title>
+
+			<div id = "header"> The Longest Zipline in the World </div>
+			<a href = "./index.html"> <img src="Yell-Extreme-Park-Logo.png" width = "100px" heigth = "100px"> </a>
+			<link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+		</head>
+		<body>
+			<a href = "./index.html"> <div id = "Home" > Home </div> </a>
+			<a href = "./story.html"> <div id = "Story" > Our Story </div>  </a>
+			<a href = "./gifts.html"> <div id = "Gifts" > What You Get</div> </a>
+			<a href = "./gallery.html"> <div id = "Gallery" > Gallery </div> </a>
+
+			<div id = "description"> <p> We design the longest and the most extreme zipline in the world. Become a part of this awesome project. </p> <p> Our team has created a great opportunity for those who love traveling and adventures. The length of the longest and most extreme zipline is 3 km and the height is approximately 300 m above the ground.</p> </div>
+			
+			<!--<div id = "croudfunding"> Croudfunding </div> -->
+			<a href="https://www.indiegogo.com"> <div id = indigogolink> CLICK to FUND </div> </a>
+			<!--<div id = "facebook" href = "https://web.facebook.com/yellextremepark/"> Facebook </div>
+			<div id = "indigogo" href = "https://www.indiegogo.com"> Indigogo </div> -->
+
+			<!--Video-->
+			<iframe width="650" height="450" src="https://www.youtube.com/embed/HxbD_ZPLsWY?start=88&autoplay=1" frameborder="0" allowfullscreen></iframe>
+
+			<!--Javascript-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				//Home
+				const Home = $('#Home').on('mouseenter', function(e) {
+					Home.css('text-decoration', 'underline');
+				});
+				Home.on('mouseleave', function(e) {
+					Home.css('text-decoration', 'none');
+				});
+
+				//Story
+				const Story = $('#Story').on('mouseenter', function(e) {
+					Story.css('text-decoration', 'underline');
+				});
+				Story.on('mouseleave', function(e) {
+					Story.css('text-decoration', 'none');
+				});
+
+				//Gifts
+				const Gifts = $('#Gifts').on('mouseenter', function(e) {
+					Gifts.css('text-decoration', 'underline');
+				});
+				Gifts.on('mouseleave', function(e) {
+					Gifts.css('text-decoration', 'none');
+				});
+
+				//Gallery
+				const Gallery = $('#Gallery').on('mouseenter', function(e) {
+					Gallery.css('text-decoration', 'underline');
+				});
+				Gallery.on('mouseleave', function(e) {
+					Gallery.css('text-decoration', 'none');
+				});
+
+				//Indiegogo
+				const Indiegogo = $('#indigogolink').on('mouseenter', function(e) {
+					Indiegogo.css('background-color', '#F6391F');
+				});
+				Indiegogo.on('mouseleave', function(e) {
+					Indiegogo.css('background-color','#C0392B');
+				});
+
+			</script>
+		</body>
+			<!--<script type="text/javascript" src="main.js"></script> -->
+	</html>
+
+

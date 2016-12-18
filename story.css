@@ -1,0 +1,117 @@
+				body {
+					background-image: url("Yell-Extreme-Park-Logo-Transparent.png");
+				}
+				img {
+					position: absolute;
+					top: 10px;
+					left: 50px;
+				}
+				#header {
+					top: 0 px;
+					background-color: #FCB721;
+					height: 110px;
+					width: 100%;
+					text-align: center;
+					font-size: 70px;
+					color: #45132F;
+					opacity: 1;
+					vertical-align: middle;
+					line-height: 110px;
+				}
+				
+				#Home {
+					position: relative;
+					top: 15px;
+					left: 0px;
+					width: 100px;
+					height: 55px;
+					text-align: center;
+					font-size: 25px;
+					color: #45132F;
+					opacity: 0.8;
+					vertical-align: middle;
+					line-height: 55px;
+					
+				}
+				#Story {
+					position: relative;
+					top: -40px;
+					left: 110px;
+					width: 150px;
+					height: 55px;
+					text-align: center;
+					font-size: 25px;
+					color: #45132F;
+					opacity: 0.8;	
+					vertical-align: middle;
+					line-height: 55px;			
+				}
+				#Gifts {
+					position: relative;
+					top: -95px;
+					left: 270px;
+					width: 180px;
+					height: 55px;
+					text-align: center;
+					font-size: 25px;
+					color: #45132F;
+					opacity: 0.8;
+					vertical-align: middle;
+					line-height: 55px;
+					
+				} 
+				#Gallery {
+					position: relative;
+					top: -150px;
+					left: 460px;
+					width: 120px;
+					height: 55px;
+					text-align: center;
+					font-size: 25px;
+					color: #45132F;
+					opacity: 0.8;
+					vertical-align: middle;
+					line-height: 55px;
+					
+				} 
+				iframe {
+					position: relative;
+					top: -200px;
+					left: 30px;
+					/*border-width: 7px; */
+					}
+
+				#indigogolink {
+					background-color: #C0392B;
+					position: relative;
+					top: -200px;
+					left: 1035px;
+					width: 325px;
+					height: 55px;
+					font-size: 40px;
+					text-align: center;
+					color: white;
+					border-radius: 8px;
+					/*opacity: 0.8;*/
+					vertical-align: middle;
+					line-height: 55px;
+				}
+				a {
+					text-decoration: none;
+				}
+				#storycontent {
+					position: relative;
+					left: 30px;
+					top: -170px;
+					width: 900px;
+					font-size: 25px;
+					color:#45132F;
+				}
+
+				#storypicture {
+					top: 240px;
+					left: 1060px;
+					height: 426px;
+					width: 300px;
+
+				}
